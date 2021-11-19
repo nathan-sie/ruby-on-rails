@@ -1,0 +1,3081 @@
+Started GET "/" for 127.0.0.1 at 2021-11-14 23:55:55 +0800
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.1ms | Allocations: 528)
+Completed 200 OK in 13ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 5385)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-14 23:58:58 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 421)
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3074)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:00:33 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.8ms | Allocations: 421)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3074)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:03:18 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.5ms | Allocations: 421)
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3074)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:07:30 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant LayoutsController):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:07:36 +0800
+  
+ActionController::RoutingError (uninitialized constant LayoutsController):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:27:06 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant LayoutsController):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:29:10 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 421)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3074)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:40:22 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 14458)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 17119)
+
+
+  
+ActionView::Template::Error (Webpacker can't find main.js in /Users/Leo/testwebpack/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3bc0669dd29be7778d66.js",
+  "application.js.map": "/packs/js/application-3bc0669dd29be7778d66.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3bc0669dd29be7778d66.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3bc0669dd29be7778d66.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-c2539635e8404e81a1b5.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-c2539635e8404e81a1b5.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-c2539635e8404e81a1b5.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-c2539635e8404e81a1b5.js.map"
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'main', 'data-turbolinks-track': 'reload' %>
+    12:     <%= javascript_pack_tag 'hello_vue' %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:40:26 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 380)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3342)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3697)
+
+
+  
+ActionView::Template::Error (Webpacker can't find main.js in /Users/Leo/testwebpack/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3bc0669dd29be7778d66.js",
+  "application.js.map": "/packs/js/application-3bc0669dd29be7778d66.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3bc0669dd29be7778d66.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3bc0669dd29be7778d66.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-c2539635e8404e81a1b5.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-c2539635e8404e81a1b5.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-c2539635e8404e81a1b5.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-c2539635e8404e81a1b5.js.map"
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'main', 'data-turbolinks-track': 'reload' %>
+    12:     <%= javascript_pack_tag 'hello_vue' %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:41:21 +0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 5282)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 8001)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:41:34 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 4944)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 7663)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:50:38 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4944)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7663)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 00:51:22 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4944)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7663)
+
+
+Started GET "/rails/info/routes?path=%20n" for 127.0.0.1 at 2021-11-15 01:08:35 +0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>" n"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 1481)
+
+
+Started GET "/rails/info/routes?path=%20n" for 127.0.0.1 at 2021-11-15 01:08:37 +0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>" n"}
+Completed 200 OK in 11ms (Views: 0.4ms | Allocations: 951)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:04:48 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5330)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8049)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:04:51 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 393)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2466)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2861)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:04:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 393)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 2452)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:04:58 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 393)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2453)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 2896)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:05:31 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 5330)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 8049)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:07:56 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 5330)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8049)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:10:08 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 5330)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 8049)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:12:59 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 5330)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8049)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 18:13:26 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 5330)
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8068)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 21:38:46 +0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 851)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5342)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 8061)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "latent_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE "latent_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6965842045794095100)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20211115145832)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211115145832"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6965842045794095100)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:15:04 +0800
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 20509)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 23194)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:16:10 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6103)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 8789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:16:20 +0800
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6103)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 8789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:16:22 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2611)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3068)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:19:45 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2612)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 3035)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:19:53 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6103)
+Completed 200 OK in 15ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:20:46 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2609)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 3063)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:20:53 +0800
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 6103)
+Completed 200 OK in 29ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 8789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:23:50 +0800
+  [1m[35m (29.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6103)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 8789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:24:50 +0800
+  [1m[35m (8.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5717)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 8403)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:26:06 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2248)
+Completed 200 OK in 18ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2705)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:26:14 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 852)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5717)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 8403)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:37:03 +0800
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Leo/rb/testturbo/public/packs
+[Webpacker] Hash: 5b06bb8a483994dd5dd3
+Version: webpack 4.46.0
+Time: 1985ms
+Built at: 11/15/2021 11:37:08 PM
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-fa23b044318ab350bf57.js   125 KiB      application  [emitted] [immutable]  application
+    js/application-fa23b044318ab350bf57.js.map   139 KiB      application  [emitted] [dev]        application
+    js/components/user-17af8e7860e4a8855d84.js   109 KiB  components/user  [emitted] [immutable]  components/user
+js/components/user-17af8e7860e4a8855d84.js.map   104 KiB  components/user  [emitted] [dev]        components/user
+          js/hello_vue-7493c931856bc010cb1a.js   357 KiB        hello_vue  [emitted] [immutable]  hello_vue
+      js/hello_vue-7493c931856bc010cb1a.js.map   395 KiB        hello_vue  [emitted] [dev]        hello_vue
+               js/main-3df9465450cf534de5e4.js  2.67 MiB             main  [emitted] [immutable]  main
+           js/main-3df9465450cf534de5e4.js.map  2.98 MiB             main  [emitted] [dev]        main
+                                 manifest.json  1.48 KiB                   [emitted]              
+       media/fonts/element-icons-313f7dac.woff  27.5 KiB                   [emitted]              
+        media/fonts/element-icons-45201881.ttf  54.6 KiB                   [emitted]              
+Entrypoint application = js/application-fa23b044318ab350bf57.js js/application-fa23b044318ab350bf57.js.map
+Entrypoint components/user = js/components/user-17af8e7860e4a8855d84.js js/components/user-17af8e7860e4a8855d84.js.map
+Entrypoint hello_vue = js/hello_vue-7493c931856bc010cb1a.js js/hello_vue-7493c931856bc010cb1a.js.map
+Entrypoint main = js/main-3df9465450cf534de5e4.js js/main-3df9465450cf534de5e4.js.map
+[./app/javascript/app.vue] 1.15 KiB {hello_vue} {main} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} {main} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 361 bytes {hello_vue} {main} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} {main} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 514 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 2.13 KiB {hello_vue} [built]
+[./app/javascript/packs/main.js] 538 bytes {main} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--7-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 195 bytes {hello_vue} {main} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 857 bytes {hello_vue} {main} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 771 bytes {hello_vue} {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 290 bytes {hello_vue} {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {hello_vue} {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 204 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 4555.9ms | Allocations: 3463)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4569.2ms | Allocations: 11939)
+Completed 200 OK in 4578ms (Views: 4573.8ms | ActiveRecord: 0.0ms | Allocations: 14723)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:37:31 +0800
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 9089)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 11873)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:40:04 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Leo/rb/testturbo/public/packs
+[Webpacker] Hash: 558bf13de23d6ba70438
+Version: webpack 4.46.0
+Time: 1597ms
+Built at: 2021/11/15 下午11:40:07
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-fa23b044318ab350bf57.js   125 KiB      application  [emitted] [immutable]  application
+    js/application-fa23b044318ab350bf57.js.map   139 KiB      application  [emitted] [dev]        application
+    js/components/user-17af8e7860e4a8855d84.js   109 KiB  components/user  [emitted] [immutable]  components/user
+js/components/user-17af8e7860e4a8855d84.js.map   104 KiB  components/user  [emitted] [dev]        components/user
+          js/hello_vue-0502da46d9a330222ebe.js     6 KiB        hello_vue  [emitted] [immutable]  hello_vue
+      js/hello_vue-0502da46d9a330222ebe.js.map  6.15 KiB        hello_vue  [emitted] [dev]        hello_vue
+               js/main-e543cdee0566444e6fe2.js  2.67 MiB             main  [emitted] [immutable]  main
+           js/main-e543cdee0566444e6fe2.js.map  2.98 MiB             main  [emitted] [dev]        main
+                                 manifest.json  1.48 KiB                   [emitted]              
+       media/fonts/element-icons-313f7dac.woff  27.5 KiB                   [emitted]              
+        media/fonts/element-icons-45201881.ttf  54.6 KiB                   [emitted]              
+Entrypoint application = js/application-fa23b044318ab350bf57.js js/application-fa23b044318ab350bf57.js.map
+Entrypoint components/user = js/components/user-17af8e7860e4a8855d84.js js/components/user-17af8e7860e4a8855d84.js.map
+Entrypoint hello_vue = js/hello_vue-0502da46d9a330222ebe.js js/hello_vue-0502da46d9a330222ebe.js.map
+Entrypoint main = js/main-e543cdee0566444e6fe2.js js/main-e543cdee0566444e6fe2.js.map
+[./app/javascript/app.vue] 1.15 KiB {main} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 361 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {main} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 514 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 2.12 KiB {hello_vue} [built]
+[./app/javascript/packs/main.js] 538 bytes {main} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--7-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 195 bytes {main} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 861 bytes {main} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 771 bytes {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 290 bytes {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 204 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2419.5ms | Allocations: 10441)
+Completed 200 OK in 2424ms (Views: 2421.2ms | ActiveRecord: 0.0ms | Allocations: 13127)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:43:16 +0800
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 9121)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 11807)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-15 23:47:09 +0800
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 9121)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 11807)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:04:47 +0800
+  [1m[35m (8.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5709)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 8395)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:08:08 +0800
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 5709)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 8395)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:09:51 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5709)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 8395)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:12:38 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5701)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8387)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:16:34 +0800
+  [1m[35m (8.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 5701)
+Completed 200 OK in 34ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 8387)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:46:11 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5701)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8387)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 00:46:24 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5701)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8387)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:15:03 +0800
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.5ms | Allocations: 415)
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3092)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:15:12 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Leo/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.7ms | Allocations: 219)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 1192)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:16:28 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 5701)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 8387)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:16:34 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2246)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2700)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:37:34 +0800
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Leo/rb/testturbo/public/packs
+[Webpacker] Hash: 47a3b8f88cd213ec6b6c
+Version: webpack 4.46.0
+Time: 1647ms
+Built at: 2021/11/16 上午1:37:36
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-462542d5ce1c64f02607.js   125 KiB      application  [emitted] [immutable]  application
+    js/application-462542d5ce1c64f02607.js.map   139 KiB      application  [emitted] [dev]        application
+    js/components/user-34d4f93a2b2764af03c2.js   109 KiB  components/user  [emitted] [immutable]  components/user
+js/components/user-34d4f93a2b2764af03c2.js.map   104 KiB  components/user  [emitted] [dev]        components/user
+          js/hello_vue-0502da46d9a330222ebe.js     6 KiB        hello_vue  [emitted] [immutable]  hello_vue
+      js/hello_vue-0502da46d9a330222ebe.js.map  6.15 KiB        hello_vue  [emitted] [dev]        hello_vue
+               js/main-31910985331760c82ebe.js  2.67 MiB             main  [emitted] [immutable]  main
+           js/main-31910985331760c82ebe.js.map  2.98 MiB             main  [emitted] [dev]        main
+                                 manifest.json  1.48 KiB                   [emitted]              
+       media/fonts/element-icons-313f7dac.woff  27.5 KiB                   [emitted]              
+        media/fonts/element-icons-45201881.ttf  54.6 KiB                   [emitted]              
+Entrypoint application = js/application-462542d5ce1c64f02607.js js/application-462542d5ce1c64f02607.js.map
+Entrypoint components/user = js/components/user-34d4f93a2b2764af03c2.js js/components/user-34d4f93a2b2764af03c2.js.map
+Entrypoint hello_vue = js/hello_vue-0502da46d9a330222ebe.js js/hello_vue-0502da46d9a330222ebe.js.map
+Entrypoint main = js/main-31910985331760c82ebe.js js/main-31910985331760c82ebe.js.map
+[./app/javascript/app.vue] 1.15 KiB {main} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 361 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {main} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 516 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 2.12 KiB {hello_vue} [built]
+[./app/javascript/packs/main.js] 544 bytes {main} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--7-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 194 bytes {main} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 861 bytes {main} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 771 bytes {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 290 bytes {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 204 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2472.7ms | Allocations: 10433)
+Completed 200 OK in 2478ms (Views: 2474.7ms | ActiveRecord: 0.0ms | Allocations: 13119)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:38:05 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Leo/rb/testturbo/public/packs
+[Webpacker] Hash: af537b7088f539dcd46f
+Version: webpack 4.46.0
+Time: 1618ms
+Built at: 2021/11/16 上午1:38:08
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-462542d5ce1c64f02607.js   125 KiB      application  [emitted] [immutable]  application
+    js/application-462542d5ce1c64f02607.js.map   139 KiB      application  [emitted] [dev]        application
+    js/components/user-34d4f93a2b2764af03c2.js   109 KiB  components/user  [emitted] [immutable]  components/user
+js/components/user-34d4f93a2b2764af03c2.js.map   104 KiB  components/user  [emitted] [dev]        components/user
+               js/main-31910985331760c82ebe.js  2.67 MiB             main  [emitted] [immutable]  main
+           js/main-31910985331760c82ebe.js.map  2.98 MiB             main  [emitted] [dev]        main
+                                 manifest.json  1.16 KiB                   [emitted]              
+       media/fonts/element-icons-313f7dac.woff  27.5 KiB                   [emitted]              
+        media/fonts/element-icons-45201881.ttf  54.6 KiB                   [emitted]              
+Entrypoint application = js/application-462542d5ce1c64f02607.js js/application-462542d5ce1c64f02607.js.map
+Entrypoint components/user = js/components/user-34d4f93a2b2764af03c2.js js/components/user-34d4f93a2b2764af03c2.js.map
+Entrypoint main = js/main-31910985331760c82ebe.js js/main-31910985331760c82ebe.js.map
+[./app/javascript/app.vue] 1.15 KiB {main} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 361 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {main} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 516 bytes {application} [built]
+[./app/javascript/packs/main.js] 544 bytes {main} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--7-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 194 bytes {main} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 861 bytes {main} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 771 bytes {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 290 bytes {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 204 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2477.2ms | Allocations: 10373)
+Completed 200 OK in 2483ms (Views: 2479.3ms | ActiveRecord: 0.0ms | Allocations: 13059)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:57:10 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 5645)
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8429)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 01:57:50 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5645)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8429)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 02:02:08 +0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Leo/rb/testturbo/public/packs
+[Webpacker] Hash: 34d7d5606f7b67645f1f
+Version: webpack 4.46.0
+Time: 2041ms
+Built at: 11/16/2021 2:02:11 AM
+                                         Asset      Size           Chunks                         Chunk Names
+        js/application-462542d5ce1c64f02607.js   125 KiB      application  [emitted] [immutable]  application
+    js/application-462542d5ce1c64f02607.js.map   139 KiB      application  [emitted] [dev]        application
+    js/components/user-34d4f93a2b2764af03c2.js   109 KiB  components/user  [emitted] [immutable]  components/user
+js/components/user-34d4f93a2b2764af03c2.js.map   104 KiB  components/user  [emitted] [dev]        components/user
+               js/main-5cddc5e02d9c0d40c121.js  2.67 MiB             main  [emitted] [immutable]  main
+           js/main-5cddc5e02d9c0d40c121.js.map  2.98 MiB             main  [emitted] [dev]        main
+                                 manifest.json  1.16 KiB                   [emitted]              
+       media/fonts/element-icons-313f7dac.woff  27.5 KiB                   [emitted]              
+        media/fonts/element-icons-45201881.ttf  54.6 KiB                   [emitted]              
+Entrypoint application = js/application-462542d5ce1c64f02607.js js/application-462542d5ce1c64f02607.js.map
+Entrypoint components/user = js/components/user-34d4f93a2b2764af03c2.js js/components/user-34d4f93a2b2764af03c2.js.map
+Entrypoint main = js/main-5cddc5e02d9c0d40c121.js js/main-5cddc5e02d9c0d40c121.js.map
+[./app/javascript/app.vue] 1.15 KiB {main} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 361 bytes {main} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {main} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 516 bytes {application} [built]
+[./app/javascript/packs/main.js] 544 bytes {main} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--7-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 197 bytes {main} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 874 bytes {main} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 771 bytes {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 329 bytes {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 204 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3243.8ms | Allocations: 10350)
+Completed 200 OK in 3252ms (Views: 3248.0ms | ActiveRecord: 0.0ms | Allocations: 13134)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 02:33:47 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 5645)
+Completed 200 OK in 21ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 8429)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:37:54 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 21197)
+Completed 200 OK in 81ms (Views: 47.4ms | ActiveRecord: 0.0ms | Allocations: 23996)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:38:02 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:38:22 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:38:37 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:38:40 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:39:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2289)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 2713)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:39:17 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6008)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started OPTIONS "/signin" for ::1 at 2021-11-16 13:39:23 +0800
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/signin"):
+  
+Started OPTIONS "/signin" for ::1 at 2021-11-16 13:39:33 +0800
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:45:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2296)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 2720)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:45:58 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 6008)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for ::1 at 2021-11-16 13:46:04 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:10 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:19 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:20 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:21 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:38 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:39 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:46:39 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:46:55 +0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6008)
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for ::1 at 2021-11-16 13:46:59 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:47:14 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:48:55 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 6008)
+Completed 200 OK in 22ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for ::1 at 2021-11-16 13:48:59 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:49:04 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:49:10 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for ::1 at 2021-11-16 13:49:11 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:50:19 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2295)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:50:19 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2278)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:50:29 +0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 6008)
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:50:32 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:50:36 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:50:37 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:50:37 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:50:37 +0800
+  
+ActionController::RoutingError (No route matches [POST] "/signin"):
+  
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:52:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 2295)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:52:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2278)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:52:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 132.5ms | Allocations: 10952)
+Completed 200 OK in 133ms (Views: 132.8ms | ActiveRecord: 0.0ms | Allocations: 11375)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:52:59 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6008)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:53:20 +0800
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6008)
+Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:54:32 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2347)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2982)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:54:40 +0800
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 6008)
+Completed 200 OK in 93ms (Views: 76.9ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:54:44 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 18.5ms | Allocations: 3868)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:6:in `create'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:54:49 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.9ms | Allocations: 1866)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:6:in `create'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:54:50 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 2.8ms | Allocations: 1849)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:6:in `create'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:54:51 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.8ms | Allocations: 1866)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 13:56:55 +0800
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6008)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 13:56:59 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 24.8ms | Allocations: 3806)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:00:59 +0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 6016)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 8814)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:01:43 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.9ms | Allocations: 3827)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:03:23 +0800
+  [1m[35m (40.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 6008)
+Completed 200 OK in 74ms (Views: 58.1ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:03:28 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 7.6ms | Allocations: 3831)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:9:in `create'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:04:50 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3024)
+
+
+  
+NameError (undefined local variable or method `null' for #<SigninController:0x00000000009858>):
+  
+app/controllers/signin_controller.rb:5:in `create'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:05:10 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 2396)
+
+
+  
+NameError (uninitialized constant SigninController::NULL):
+  
+app/controllers/signin_controller.rb:5:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:07:18 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2364)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2999)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:07:19 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:07:22 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:07:22 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 282)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:07:34 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"1", "signin"=>{"email"=>"1"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 3.5ms | Allocations: 2845)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:09:40 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2365)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3000)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:09:42 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:10:01 +0800
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6008)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:10:05 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 309)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:10:11 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"1", "signin"=>{"email"=>"1"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 23ms (Views: 0.1ms | ActiveRecord: 11.4ms | Allocations: 3053)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:11:19 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "signin"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.6ms | Allocations: 1754)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:12:30 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 2294)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 2718)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:12:30 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2280)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:13:40 +0800
+  [1m[35m (25.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 6009)
+Completed 200 OK in 23ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 8807)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:13:49 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"123", "password"=>"[FILTERED]", "signin"=>{"email"=>"123", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "123"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 5.0ms | Allocations: 3782)
+
+
+  
+NoMethodError (undefined method `password' for nil:NilClass):
+  
+app/controllers/signin_controller.rb:9:in `create'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6965842045794095100)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (6.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6965842045794095100)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:25:07 +0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6008)
+Completed 200 OK in 21ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:25:10 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 312)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:25:14 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"123", "password"=>"[FILTERED]", "signin"=>{"email"=>"123", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "123"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:9:in `create'
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 17.3ms | Allocations: 3067)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:38:33 +0800
+  [1m[35m (18.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2365)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 3001)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:38:33 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2278)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:38:33 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2278)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms | Allocations: 7104)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (14.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "admin"], ["email", "admin"], ["password", "admin"], ["created_at", "2021-11-16 06:55:00.987576"], ["updated_at", "2021-11-16 06:55:00.987576"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:56:10 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6008)
+Completed 200 OK in 22ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:56:19 +0800
+  
+SyntaxError (/Users/Leo/rb/testturbo/app/controllers/signin_controller.rb:9: syntax error, unexpected ')'
+...f (params[:password]!= nil && )
+...                              ^
+/Users/Leo/rb/testturbo/app/controllers/signin_controller.rb:11: syntax error, unexpected `else', expecting ')'
+      else
+      ^~~~
+/Users/Leo/rb/testturbo/app/controllers/signin_controller.rb:20: syntax error, unexpected `end', expecting ')'):
+  
+app/controllers/signin_controller.rb:9: syntax error, unexpected ')'
+app/controllers/signin_controller.rb:11: syntax error, unexpected `else', expecting ')'
+app/controllers/signin_controller.rb:20: syntax error, unexpected `end', expecting ')'
+app/controllers/signin_controller.rb:9: syntax error, unexpected ')'
+app/controllers/signin_controller.rb:11: syntax error, unexpected `else', expecting ')'
+app/controllers/signin_controller.rb:20: syntax error, unexpected `end', expecting ')'
+app/controllers/signin_controller.rb:9: syntax error, unexpected ')'
+app/controllers/signin_controller.rb:11: syntax error, unexpected `else', expecting ')'
+app/controllers/signin_controller.rb:20: syntax error, unexpected `end', expecting ')'
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:56:42 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 22ms (Views: 1.1ms | ActiveRecord: 9.4ms | Allocations: 6540)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:57:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2365)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 2965)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:57:09 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 2.8ms | Allocations: 1077)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 14:58:30 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2363)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:58:32 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"signin"=>{}}
+Completed 0  in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 295)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 14:58:37 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 8.6ms | Allocations: 7457)
+
+
+  
+NoMethodError (undefined method `user' for #<SigninController:0x0000000000ad98>
+Did you mean?  super):
+  
+app/controllers/signin_controller.rb:10:in `create'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:01:03 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2363)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:01:03 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2278)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:01:03 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2278)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms | Allocations: 13157)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:01:03 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2374)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:02:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2363)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:02:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2279)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2704)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:02:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2278)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:02:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 2526)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 2949)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:02:46 +0800
+  [1m[35m (10.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6008)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:02:54 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 27ms (Views: 0.4ms | ActiveRecord: 13.3ms | Allocations: 6344)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:03:52 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 34.7ms | Allocations: 2280)
+Completed 200 OK in 47ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 2707)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:03:52 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 2280)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 2714)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:03:52 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3059)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 3484)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:03:52 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 3706)
+Completed 200 OK in 45ms (Views: 45.1ms | ActiveRecord: 0.0ms | Allocations: 4129)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:04:01 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 1090)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:17 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2296)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:17 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2278)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:17 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2278)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:17 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 3433)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 3856)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 2290)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 2714)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2278)
+Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2677)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3674)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:06:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2278)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:07:35 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 1.3ms | Allocations: 1090)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:07:38 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 11ms (Views: 1.7ms | ActiveRecord: 2.8ms | Allocations: 1076)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:57:41 +0800
+  [1m[35m (49.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 72.0ms | Allocations: 6008)
+Completed 200 OK in 89ms (Views: 76.5ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:57:52 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 7.5ms | Allocations: 6148)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:58:01 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 15ms (Views: 0.1ms | ActiveRecord: 2.3ms | Allocations: 991)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:59:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2347)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2982)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 15:59:58 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (9.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 56ms (Views: 0.2ms | ActiveRecord: 16.9ms | Allocations: 4490)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:00:01 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 8ms (Views: 0.3ms | ActiveRecord: 4.5ms | Allocations: 989)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:00:02 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 988)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:00:02 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 3ms (Views: 0.1ms | ActiveRecord: 0.6ms | Allocations: 973)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:00:44 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 36ms (Views: 0.3ms | ActiveRecord: 25.4ms | Allocations: 4480)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:01:51 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 2366)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 2963)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:01:58 +0800
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 6008)
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 8806)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:02:09 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 0  in 20ms (Views: 0.3ms | ActiveRecord: 6.8ms | Allocations: 5915)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:02:20 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 10ms (Views: 0.9ms | ActiveRecord: 1.8ms | Allocations: 1220)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 16:02:28 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (7.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 7.0ms | Allocations: 1093)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:02:51 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 2280)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 2707)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:02:51 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2280)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:02:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2278)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:02:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3023)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 4056)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 17:05:06 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2295)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 2716)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:24:41 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 2278)
+Completed 200 OK in 22ms (Views: 19.7ms | Allocations: 2698)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:24:45 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2278)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 2698)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:25:49 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 2280)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 2700)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:25:51 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2292)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 2713)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:25:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 2278)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 2698)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:35:24 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2279)
+Completed 200 OK in 15ms (Views: 9.8ms | Allocations: 2700)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:55:24 +0800
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 6056)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 18:55:33 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (26.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 56ms (Views: 0.3ms | ActiveRecord: 39.4ms | Allocations: 6126)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:55:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 2328)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 2756)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:56:46 +0800
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 6056)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 18:56:54 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 8.4ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:58:12 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 6056)
+Completed 200 OK in 33ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:59:08 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6056)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:02:04 +0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6056)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:02:59 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2328)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 2768)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:02:59 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2328)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2753)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:02:59 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2326)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2749)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:03:11 +0800
+  [1m[35m (11.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 6056)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:03:18 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 6.9ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:09:33 +0800
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6057)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 8855)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:09:37 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 14ms (Views: 0.7ms | ActiveRecord: 6.2ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:10:12 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 2328)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 2755)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:10:12 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2328)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 2753)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:10:12 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2326)
+Completed 200 OK in 233ms (Views: 232.1ms | ActiveRecord: 0.0ms | Allocations: 10585)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 19:10:32 +0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 6056)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:10:37 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 6.1ms | Allocations: 6126)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:10:42 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 1077)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:10:42 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (9.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 44ms (Views: 0.3ms | ActiveRecord: 9.7ms | Allocations: 1093)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 19:10:58 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (5.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 5.4ms | Allocations: 1093)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 21:31:53 +0800
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6056)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 8854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 21:32:02 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 14.8ms | Allocations: 6146)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 21:32:09 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 1093)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 21:34:21 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2326)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2751)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 21:40:56 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6056)
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 8856)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:09:54 +0800
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6128)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 23:10:03 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 28ms (Views: 0.4ms | ActiveRecord: 13.2ms | Allocations: 6145)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:11:48 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2400)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:21:02 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 6128)
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:45:10 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 2400)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:45:21 +0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 6128)
+Completed 200 OK in 26ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 23:45:31 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 31ms (Views: 0.3ms | ActiveRecord: 15.7ms | Allocations: 6145)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 23:45:39 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 1077)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:47:18 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 2400)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:47:18 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2398)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:51:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 2399)
+Completed 200 OK in 28ms (Views: 26.9ms | Allocations: 2819)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:51:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2400)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 2822)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:51:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2398)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2819)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:51:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2398)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:52:02 +0800
+  [1m[35m (9.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 6128)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 23:52:11 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 6.6ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:57:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2399)
+Completed 200 OK in 20ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 2826)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:57:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2400)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 23:57:08 +0800
+  [1m[35m (11.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6128)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-16 23:57:17 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 24ms (Views: 0.3ms | ActiveRecord: 8.6ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:15:40 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2400)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2824)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:15:57 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2400)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 2822)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:16:03 +0800
+  [1m[35m (12.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 6128)
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-17 00:16:14 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 45ms (Views: 0.5ms | ActiveRecord: 24.3ms | Allocations: 6148)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:16:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2398)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2823)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:16:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2400)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:19:08 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2398)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:19:08 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2400)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2823)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:19:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2416)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2842)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:19:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2398)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:19:33 +0800
+  [1m[35m (13.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6128)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-17 00:19:39 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 52ms (Views: 0.4ms | ActiveRecord: 7.8ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:21:11 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2400)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:21:11 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2400)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 00:42:22 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2398)
+Completed 200 OK in 6ms (Views: 4.6ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:15:07 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2400)
+Completed 200 OK in 9ms (Views: 6.2ms | Allocations: 2822)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:55:56 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2414)
+Completed 200 OK in 16ms (Views: 9.6ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:58:00 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 2400)
+Completed 200 OK in 22ms (Views: 20.6ms | Allocations: 2820)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:58:41 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 55.2ms | Allocations: 2398)
+Completed 200 OK in 57ms (Views: 55.7ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:59:04 +0800
+  [1m[35m (7.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 6128)
+Completed 200 OK in 25ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 10:59:22 +0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6128)
+Completed 200 OK in 28ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-17 10:59:27 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (8.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 34ms (Views: 0.3ms | ActiveRecord: 20.0ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:01:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2400)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:01:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2400)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:02:03 +0800
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 6128)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-17 11:02:48 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 51ms (Views: 0.4ms | ActiveRecord: 32.2ms | Allocations: 6126)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:13:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 103.4ms | Allocations: 2400)
+Completed 200 OK in 112ms (Views: 104.1ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:13:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 2661)
+Completed 200 OK in 60ms (Views: 59.3ms | Allocations: 3083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:17:46 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2398)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:19:35 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 35.0ms | Allocations: 2398)
+Completed 200 OK in 45ms (Views: 41.5ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 11:19:42 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2414)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:24:19 +0800
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 61.9ms | Allocations: 6128)
+Completed 200 OK in 83ms (Views: 70.0ms | ActiveRecord: 0.0ms | Allocations: 8926)
+
+
+Started POST "/signin" for 127.0.0.1 at 2021-11-17 13:24:25 +0800
+Processing by SigninController#create as HTML
+  Parameters: {"email"=>"admin", "password"=>"[FILTERED]", "signin"=>{"email"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/signin_controller.rb:8:in `create'
+Completed 200 OK in 23ms (Views: 0.4ms | ActiveRecord: 15.4ms | Allocations: 6146)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:24:46 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 2398)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 2823)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:25:52 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 2400)
+Completed 200 OK in 29ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 2823)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:26:10 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2400)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:26:36 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 2401)
+Completed 200 OK in 40ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 2826)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:26:45 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2414)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2838)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:26:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2398)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:27:06 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2398)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:27:54 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2414)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2838)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:28:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2400)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:28:13 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2398)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:28:39 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 2398)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:28:49 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2398)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:29:57 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2398)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:30:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2414)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2838)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:30:31 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 2398)
+Completed 200 OK in 29ms (Views: 27.5ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:30:48 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2398)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:31:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2414)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:31:13 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2398)
+Completed 200 OK in 4ms (Views: 4.2ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:31:32 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2398)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:32:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2398)
+Completed 200 OK in 24ms (Views: 15.2ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:32:21 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2398)
+Completed 200 OK in 12ms (Views: 12.1ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:32:35 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2414)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:32:45 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 2414)
+Completed 200 OK in 64ms (Views: 31.8ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:34:01 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2398)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:34:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 2398)
+Completed 200 OK in 21ms (Views: 16.6ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:34:29 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 2415)
+Completed 200 OK in 35ms (Views: 27.4ms | Allocations: 2836)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:34:40 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 2398)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:35:01 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2398)
+Completed 200 OK in 16ms (Views: 13.0ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:40:21 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 2398)
+Completed 200 OK in 31ms (Views: 28.9ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:44:03 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2398)
+Completed 200 OK in 21ms (Views: 14.7ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:46:05 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2414)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:46:10 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2414)
+Completed 200 OK in 15ms (Views: 14.6ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:55:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2398)
+Completed 200 OK in 15ms (Views: 10.6ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:55:37 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 67.4ms | Allocations: 2398)
+Completed 200 OK in 96ms (Views: 90.1ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:56:15 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2414)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 2835)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-17 13:58:13 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2398)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 2818)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6965842045794095100)[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePosts (20211118070507)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (20.5ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "title" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211118070507"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (5.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6965842045794095100)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mPost Load (4.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6965842045794095100)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateImages (20211118073355)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.2ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211118073355"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6965842045794095100)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6965842045794095100)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateActiveStorageTables (20211118074158)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" bigserial primary key, "key" character varying NOT NULL, "filename" character varying NOT NULL, "content_type" character varying, "metadata" text, "service_name" character varying NOT NULL, "byte_size" bigint NOT NULL, "checksum" character varying NOT NULL, "created_at" timestamp NOT NULL)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_blobs_on_key" ON "active_storage_blobs" ("key")[0m
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" bigserial primary key, "name" character varying NOT NULL, "record_type" character varying NOT NULL, "record_id" bigint NOT NULL, "blob_id" bigint NOT NULL, "created_at" timestamp NOT NULL, CONSTRAINT "fk_rails_c3b3935057"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE INDEX "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments" ("blob_id")[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_attachments_uniqueness" ON "active_storage_attachments" ("record_type", "record_id", "name", "blob_id")[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "active_storage_variant_records" ("id" bigserial primary key, "blob_id" bigint NOT NULL, "variation_digest" character varying NOT NULL, CONSTRAINT "fk_rails_993965df05"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_variant_records_uniqueness" ON "active_storage_variant_records" ("blob_id", "variation_digest")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211118074158"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6965842045794095100)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (8.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "1"], ["created_at", "2021-11-18 08:57:25.724065"], ["updated_at", "2021-11-18 08:57:25.724065"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Blob Load (6.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (2.0ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "service_name", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["key", "2a8j81pbajxy0eiou8vw4m14p9bg"], ["filename", "B.png"], ["content_type", "image/png"], ["metadata", "{\"identified\":true}"], ["service_name", "local"], ["byte_size", 47875], ["checksum", "qaJnpltZGTvlq92Du29h+g=="], ["created_at", "2021-11-18 09:23:12.659517"]]
+  [1m[36mActiveStorage::Attachment Create (1.9ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 1], ["blob_id", 1], ["created_at", "2021-11-18 09:23:12.662566"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2021-11-18 09:23:12.664998"], ["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+[36m  Disk Storage (0.9ms) [0m[32mUploaded file to key: 2a8j81pbajxy0eiou8vw4m14p9bg (checksum: qaJnpltZGTvlq92Du29h+g==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: c8ded7ab-3882-4a20-bd76-d1f28238ee24) to Async(default) with arguments: #<GlobalID:0x00000001332ce870 @uri=#<URI::GID gid://testwebpack/ActiveStorage::Blob/1>>
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24] Performing ActiveStorage::AnalyzeJob (Job ID: c8ded7ab-3882-4a20-bd76-d1f28238ee24) from Async(default) enqueued at 2021-11-18T09:23:12Z with arguments: #<GlobalID:0x0000000133780fa8 @uri=#<URI::GID gid://testwebpack/ActiveStorage::Blob/1>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24] [36m  Disk Storage (0.1ms) [0m[34mDownloaded file from key: 2a8j81pbajxy0eiou8vw4m14p9bg[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24]   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24]   [1m[36mActiveStorage::Blob Update (0.5ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24]   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [c8ded7ab-3882-4a20-bd76-d1f28238ee24] Performed ActiveStorage::AnalyzeJob (Job ID: c8ded7ab-3882-4a20-bd76-d1f28238ee24) from Async(default) in 33.57ms
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPost Load (9.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (1.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
