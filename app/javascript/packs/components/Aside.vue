@@ -4,7 +4,7 @@
   <!--  <el-scrollbar>-->
   <div class>
     <el-menu :default-openeds='["1"]'
-             style="width:300px;height:calc(100vh - 80px);overflow-y: scroll; margin-left: -30px"
+             style="width:300px;height:calc(100vh - 80px);overflow-y: scroll; margin-left: -20px"
              default-active="home"
              router
              background-color=""
@@ -13,7 +13,7 @@
              class="el-menu-vertical-demo"
              @open="handleOpen"
              @close="handleClose">
-      <div style="margin-left: 20px ; margin-top: 20px ; font-size: 30px">Control Panel</div>
+      <div style="margin-left: 20px ; margin-top: 20px ; font-size: 25px">Control Panel</div>
       <div style="margin-left: 20px ; margin-top: 20px ;font-size: 20px">Settings</div>
       <el-sub-menu index="1">
         <template #title>

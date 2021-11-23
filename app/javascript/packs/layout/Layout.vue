@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class = "homestyle">
     <!--    头部-->
     <Header/>
     <!--    主体-->
@@ -25,5 +25,8 @@ export default {
 </script>
 
 <style>
-
+.homestyle{
+  height: 100%;
+  width: 100%;
+}
 </style>

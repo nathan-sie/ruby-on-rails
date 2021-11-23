@@ -1,15 +1,17 @@
 /*配置路由*/
-import Vue from 'vue'
+// import Vue from 'vue'
 
 // 导入路由插件
 import Router from 'vue-router'
 import home from "../components/home";
 import user from "../components/user"
 import Layout from "../layout/Layout";
-Vue.use(Router);
+// Vue.use(Router);
+import { createRouter, createWebHashHistory } from "vue-router"
 
 // 配置路由
-export default new Router({
+export const router = createRouter({
+    history: createWebHashHistory(),
     routes: [
         {
             // 路由请求路径
@@ -28,3 +30,4 @@ export default new Router({
         }
     ]
 });
+export default router
