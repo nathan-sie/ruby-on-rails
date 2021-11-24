@@ -8,11 +8,18 @@ import ElementPlus from 'element-plus'
 import { createApp } from 'vue'
 import 'element-plus/dist/index.css'
 import App from '../app.vue'
-import {router} from "./router/index";
+import router from "./router";
+
+
+
+export default ()=>{ 
+
 
 // Vue.config.productionTip = false;
 document.addEventListener('DOMContentLoaded', () => {
-  const app = createApp(App).use(ElementPlus).use(router).mount('#app')
+  const app = createApp(App).use(ElementPlus).use(router)
+  app.mount( '#app')
+  console.log(app)
 //   const app = createApp({
 //     // elementplus : new ElementPlus(),
 //     router,
@@ -21,5 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
 //   document.body.appendChild(app.$el)
 //
 //   console.log(app)
+  // app.config.productionTip = false
 })
-// app.config.productionTip = false
+
+}
+// document.addEventListener('DOMContentLoaded:before-render', () => {
+//   if (app) app.unmount();
+// });

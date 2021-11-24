@@ -2,17 +2,15 @@
 // import Vue from 'vue'
 
 // 导入路由插件
-import Router from 'vue-router'
-import home from "../components/home";
-import user from "../components/user"
-import Layout from "../layout/Layout";
+// import Router from 'vue-router'
+// import home from "../components/home.vue";
+import user from "../components/user.vue"
+import Layout from "../layout/Layout.vue";
 // Vue.use(Router);
-import { createRouter, createWebHashHistory } from "vue-router"
-
+import { createRouter, createWebHistory } from "vue-router"
 // 配置路由
-export const router = createRouter({
-    history: createWebHashHistory(),
-    routes: [
+
+const routes = [
         {
             // 路由请求路径
             path: '/',
@@ -29,5 +27,10 @@ export const router = createRouter({
             component: Layout
         }
     ]
-});
+    // process.env.BASE_URL
+const router = createRouter({
+    history: createWebHistory(),
+    routes
+})
+
 export default router

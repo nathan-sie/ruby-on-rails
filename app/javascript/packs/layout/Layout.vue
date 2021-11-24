@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>  
 .homestyle{
   height: 100%;
   width: 100%;

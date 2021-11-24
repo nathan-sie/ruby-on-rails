@@ -12,3 +12,5 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 // require("channels");
+import initVueApp from "./main.js"
+initVueApp()

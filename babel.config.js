@@ -4,6 +4,7 @@ module.exports = function(api) {
   var isDevelopmentEnv = api.env('development')
   var isProductionEnv = api.env('production')
   var isTestEnv = api.env('test')
+  
 
   if (!validEnv.includes(currentEnv)) {
     throw new Error(
@@ -76,7 +77,14 @@ module.exports = function(api) {
         {
           async: false
         }
-      ]
+      ],
+    //   [
+    //     // Define Bundler Build Feature Flags
+    //     new webpack.DefinePlugin({
+    //         // Drop Options API from bundle
+    //         __VUE_OPTIONS_API__: false,
+    //     }),
+    // ],
     ].filter(Boolean)
   }
 }
