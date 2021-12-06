@@ -1,0 +1,28 @@
+{
+  "name": "testwebpack",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.3",
+    "@vue/cli": "^4.5.15",
+    "@vue/compiler-sfc": "^3.2.23",
+    "axios": "^0.24.0",
+    "element-plus": "^1.2.0-beta.5",
+    "turbolinks": "^5.2.0",
+    "uuid": "^8.3.2",
+    "vue": "3.2.8",
+    "vue-loader": "^16.8.3",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2",
+    "webpack": "^4.46.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.1",
+    "typescript": "^4.5.2",
+    "webpack-dev-server": "^3"
+  }
+}
