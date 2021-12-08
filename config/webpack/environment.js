@@ -23,6 +23,7 @@ environment.config.merge({
         }
       },
     module: {
+        unknownContextCritical: false,
         rules: [
             {
                 test: /\.mjs$/,

@@ -12,7 +12,7 @@ class SigninController < ApplicationController
         not_found
       end
     end
-    end
+  end
   private
   def user_params
     params.require(:user).permit(:email, :password, :name)

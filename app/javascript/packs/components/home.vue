@@ -1,44 +1,37 @@
 <template>
   <div>
     <router-view/>
-    <img :src="post.image_url"/>
   </div>
-
+  <!-- <div>
+    <img :src="getImage()">
+  </div> -->
+  <div>
+    <img :src="image">
+  </div>
 </template>
 
-// <script setup>
-// import { reactive, ref, toRefs ,getCurrentInstance, onMounted, computed} from 'vue';
-// import {useRoute} from 'vue-router';
-// import { mapActions, mapGetters } from "vuex";
-// import axios from "axios";
-//     const route = useRoute()
-//     console.log( "This is home")
-//     const computed =(computed) =>{
-//       ...mapGetters("posts",["posts"])
-//     }
-//     const mapActions
-// </script>
+<script lang="ts" setup>
+import {ref, onMounted, onBeforeMount} from "vue";
+import axios from "axios"
+import {useRoute} from 'vue-router'
+const route = useRoute()
+var image_url = route.query.image_url.toString()
+let image = require("/Users/Leo/" +image_url);
+console.log(route.query.image_url)
+console.log(image)
+console.log("This is home:")
 
-// <script>
-// import { mapActions, mapGetters } from "vuex";
-
-// export default {
-//   name: "PostList",
-//   created() {
-//     this.fetchPosts();
-//   },
-//   computed: {
-//     ...mapGetters("posts", ["posts"])
-//   },
-//   methods: {
-//     ...mapActions("posts", ["fetchPosts", "deletePost"]),
-//     del(id) {
-//       this.deletePost(id);
-//     }
-//   }
-// };
-// </script>
-
+// const getImage = () =>{
+//    axios.post('/postimage',{id : route.query.id}).then(response=>{
+//     // console.log("=======================================ssssssss==============================")
+//     // console.log(response.data.data.image_url)
+//     const image =  "/Users/Leo/a.jpeg"
+     
+//       // imgUrl = m.default
+      
+//   })
+// }
+</script>
 <style>
 
 </style>

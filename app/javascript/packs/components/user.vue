@@ -58,9 +58,13 @@ import { reactive,ref,toRef,unref } from 'vue';
                     errorinfo = message
                   }else{
                     // console.log(response.data.data.id)
-                    router.push({path:'/home',query:{
-                      id : id
-                    }})
+                    axios.post('/postimage',{id : response.data.data.id}).then(res=>{
+                      // let image_url = res.data.data.image_url
+                      router.push({path:'/home',query:{
+                      id : id,
+                      image_url :res.data.data.image_url
+                    }})          
+                    })
                   }
                 })
                 
