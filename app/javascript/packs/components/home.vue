@@ -10,13 +10,13 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 import {ref, onMounted, onBeforeMount} from "vue";
 import axios from "axios"
 import {useRoute} from 'vue-router'
 const route = useRoute()
 var image_url = route.query.image_url.toString()
-let image = require("/Users/Leo/" +image_url);
+let image = require("../assets/"+image_url);
 console.log(route.query.image_url)
 console.log(image)
 console.log("This is home:")

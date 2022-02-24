@@ -1,15 +1,15 @@
 {
-  "application.js": "/packs/js/application-66a2dd342004a0d2db61.js",
-  "application.js.map": "/packs/js/application-66a2dd342004a0d2db61.js.map",
+  "application.js": "/packs/js/application-1a4bfbbd558f2148e073.js",
+  "application.js.map": "/packs/js/application-1a4bfbbd558f2148e073.js.map",
   "assets/a.js": "/packs/js/assets/a-50de92283854ba1801d9.js",
   "assets/a.js.map": "/packs/js/assets/a-50de92283854ba1801d9.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-66a2dd342004a0d2db61.js"
+        "/packs/js/application-1a4bfbbd558f2148e073.js"
       ],
       "js.map": [
-        "/packs/js/application-66a2dd342004a0d2db61.js.map"
+        "/packs/js/application-1a4bfbbd558f2148e073.js.map"
       ]
     },
     "assets/a": {
@@ -22,18 +22,18 @@
     },
     "main": {
       "js": [
-        "/packs/js/main-8c71cad3b6ad184ba276.js"
+        "/packs/js/main-1a8381ffc8a79f857353.js"
       ],
       "js.map": [
-        "/packs/js/main-8c71cad3b6ad184ba276.js.map"
+        "/packs/js/main-1a8381ffc8a79f857353.js.map"
       ]
     },
     "router/index": {
       "js": [
-        "/packs/js/router/index-73ee7233c65a3752eb4a.js"
+        "/packs/js/router/index-da36749524592fc57a61.js"
       ],
       "js.map": [
-        "/packs/js/router/index-73ee7233c65a3752eb4a.js.map"
+        "/packs/js/router/index-da36749524592fc57a61.js.map"
       ]
     },
     "store/index": {
@@ -45,12 +45,12 @@
       ]
     }
   },
-  "main.js": "/packs/js/main-8c71cad3b6ad184ba276.js",
-  "main.js.map": "/packs/js/main-8c71cad3b6ad184ba276.js.map",
+  "main.js": "/packs/js/main-1a8381ffc8a79f857353.js",
+  "main.js.map": "/packs/js/main-1a8381ffc8a79f857353.js.map",
   "media/_/a.jpeg": "/packs/media/_/a-55d534b7.jpeg",
   "media/packs/assets/a.jpeg": "/packs/media/packs/assets/a-55d534b7973e5cf69e0109bdb3570bc8.jpeg",
-  "router/index.js": "/packs/js/router/index-73ee7233c65a3752eb4a.js",
-  "router/index.js.map": "/packs/js/router/index-73ee7233c65a3752eb4a.js.map",
+  "router/index.js": "/packs/js/router/index-da36749524592fc57a61.js",
+  "router/index.js.map": "/packs/js/router/index-da36749524592fc57a61.js.map",
   "store/index.js": "/packs/js/store/index-86cf59c835a7aa323d7e.js",
   "store/index.js.map": "/packs/js/store/index-86cf59c835a7aa323d7e.js.map"
 }
